@@ -1,0 +1,99 @@
+:root {
+  --green: #00ff9f;
+  --bg: #0a0a0a;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: #ccc;
+  font-family: monospace;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  border-bottom: 1px solid var(--green);
+}
+
+.nav a {
+  margin-left: 15px;
+  font-size: 17px;
+  color: var(--green);
+}
+
+.section {
+  padding: 60px 20px;
+  font-size: 19px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: var(--green);
+  font-size: 25px;
+  text-shadow: 0 0 10px var(--green);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.grid div {
+  border: 1px solid var(--green);
+  padding: 10px;
+}
+
+.card {
+  border: 1px solid var(--green);
+  margin: 15px auto;
+  padding: 15px;
+  max-width: 400px;
+}
+
+.card:hover {
+  box-shadow: 0 0 15px var(--green);
+}
+
+#typing::after {
+  content: "|";
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+.terminal {
+  background: #000;
+  border: 1px solid #00ff9f;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+  font-size: 25px;
+  box-shadow: 0 0 10px #00ff9f;
+}
+
+.success {
+  color: #00ff9f;
+  font-weight: bold;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s ease;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.highlight {
+  color: #00ff9f;
+  text-shadow: 0 0 10px #00ff9f;
+}
