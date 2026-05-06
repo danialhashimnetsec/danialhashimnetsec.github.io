@@ -1,11 +1,9 @@
-<p align="center">
-  <img src="images/profile.jpg" width="150" style="border-radius: 50%;" />
-</p>
 
-<h1 align="center">Hi, I'm Muhammad Danial Bin Hashim 👨‍💻</h1>
-<p align="center">
+
+
+Hi, I'm Muhammad Danial Bin Hashim 👨‍💻
+
   🔐 Cybersecurity Graduate | Network Security Enthusiast | Future SOC Analyst
-</p>
 
 ---
 
