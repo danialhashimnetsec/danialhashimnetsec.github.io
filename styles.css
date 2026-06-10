@@ -417,32 +417,32 @@ to{
 }
 
 .skill{
-margin:20px auto;
-max-width:900px;
-text-align:left;
+    max-width:900px;
+    margin:20px auto;
+    text-align:left;
 }
 
 .skill span{
-display:block;
-margin-bottom:8px;
-font-weight:bold;
-color:#00ff9f;
+    display:block;
+    margin-bottom:8px;
+    color:var(--green);
+    font-weight:bold;
 }
 
 .skill-bar{
-width:100%;
-background:#1a1a1a;
-border-radius:25px;
-overflow:hidden;
-border:1px solid #00ff9f;
+    width:100%;
+    background:#1a1a1a;
+    border:1px solid var(--green);
+    border-radius:30px;
+    overflow:hidden;
 }
 
 .skill-fill{
-height:30px;
-background:#00ff9f;
-color:black;
-font-weight:bold;
-text-align:center;
-line-height:30px;
-border-radius:25px;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+    font-weight:bold;
+    background:linear-gradient(90deg,#00ff9f,#00e5ff);
+    color:#000;
+    border-radius:30px;
 }
