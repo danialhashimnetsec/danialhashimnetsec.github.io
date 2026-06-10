@@ -415,3 +415,34 @@ to{
     grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
     gap:20px;
 }
+
+.skill{
+margin:20px auto;
+max-width:900px;
+text-align:left;
+}
+
+.skill span{
+display:block;
+margin-bottom:8px;
+font-weight:bold;
+color:#00ff9f;
+}
+
+.skill-bar{
+width:100%;
+background:#1a1a1a;
+border-radius:25px;
+overflow:hidden;
+border:1px solid #00ff9f;
+}
+
+.skill-fill{
+height:30px;
+background:#00ff9f;
+color:black;
+font-weight:bold;
+text-align:center;
+line-height:30px;
+border-radius:25px;
+}
